@@ -1,3 +1,5 @@
-const h2 = document.createElement("h2")
-h2.textContent = "This is content added by JavaScript"
-document.querySelector("body").appendChild(h2)
+const subHeading = document.createElement("h4")
+subHeading.id = "pageSubHeader"
+subHeading.textContent = "The beginning of a bright-eyed coder's journey..."
+document.querySelector("body").appendChild(subHeading)
+subHeading.style.fontStyle = "italic"
