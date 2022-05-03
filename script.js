@@ -5,13 +5,9 @@ subHeading.id = "pageSubHeader"
 //document.querySelector("body").appendChild(subHeading)
 //subHeading.style.fontStyle = "italic"
 
-let btnCounter = document.getElementById(buttonCounter)
-let counter = 0
+const myfunction = document.getElementById(laurenButton)
 
-btnCounter.addEventListener("click", function(){
-    while(counter < 10) {
-        counter++
-        console.log(`Lauren has a cool counter, watch it${counter}`)
-        counter = counter + 1
-    }    
-})
+myfunction.addEventListener('click', function() {
+    alert("hello, you clicked my button!");
+  });
+
