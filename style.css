@@ -1,19 +1,26 @@
 body {
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    font-family: ;
 }
 
-
+#catGif,
 #firstSection img{
     max-width: 50%;
     max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;      
 }
 
-#catGif {
+#firstSection figcaption {
+    text-align: center;
+}  
+
+/*#catGif {
     max-width: 50%;
     max-height: 100%;
-}
+}*/
 
 #laurenButton {
     color: rgb(255, 255, 255); 
@@ -34,4 +41,18 @@ body {
     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
     border: 2px solid rgb(28, 110, 164);
     display: inline-block;
+  }
+
+#laurenButton:hover {
+    background: #1C6EA4; 
+}
+
+#laurenButton:active {
+    background: #144E75; 
+}
+
+#quote,
+#thirdSection {
+    text-align: center;  
+    font-size: 20px;    
   }
