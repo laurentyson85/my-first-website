@@ -7,7 +7,7 @@ subHeading.id = "pageSubHeader"
 
 const laurenButton = document.getElementById("laurenButton")
 
-laurenButton.addEventListener("click", function() {
+laurenButton.addEventListener("click", function(e) {
     console.log("hello, you clicked my button!");
 });
 
