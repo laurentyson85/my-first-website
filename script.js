@@ -5,9 +5,9 @@ subHeading.id = "pageSubHeader"
 //document.querySelector("body").appendChild(subHeading)
 //subHeading.style.fontStyle = "italic"
 
-const laurenButton = document.getElementById("laurenButton")
 
-laurenButton.addEventListener("click", function(e) {
-    console.log("hello, you clicked my button!");
+const laurenButton=document.getElementById("laurenButton");
+
+laurenButton.addEventListener("click", function(){
+    alert("OMG! I finally got this dang button alert to work. Yay for coding!!")
 });
-
